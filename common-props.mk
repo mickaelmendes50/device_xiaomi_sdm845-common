@@ -36,6 +36,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.display.ad.sdr_calib_data=/vendor/etc/sdr_config.cfg \
     ro.vendor.display.sensortype=2
 
+# Force disable blank
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.force_no_blanking=true
+
 # Graphics
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.disable_backpressure=1 \

@@ -21,5 +21,10 @@
 
     <!-- Full screen aspect ratio -->
     <bool name="config_haveHigherAspectRatioScreen">true</bool>
-    
+
+    <!-- Does the device support handwave for doze pulse?
+         Handwave sensor type must be set and must be a proximity
+         type sensor -->
+    <bool name="config_dozePulseHandWave">true</bool>
+    <string name="config_dozeHandWaveSensorType" translatable="false">android.sensor.proximity</string>
 </resources>
